@@ -45,11 +45,19 @@ namespace CinemaManagement.Pages
             }
         }
 
-        public void OnPost()
+        public void OnPost(int id)
         {
             Search = Request.Form["Search"];
-            movies = _context.Movies.Include("Genre").Where(x => x.Title.Contains(Search)).ToList();
-            genres = _context.Genres.ToList();
+            if (id == 0)
+            {
+                movies = _context.Movies.Include("Genre").Where(x => x.Title.Contains(Search)).ToList();
+                genres = _context.Genres.ToList();
+            }
+            else
+            {
+                movies = _context.Movies.Include("Genre").Where(x => x.GenreId == id&&x.Title.Contains(Search)).ToList();
+                genres = _context.Genres.ToList();
+            }            
         }
     }
 }

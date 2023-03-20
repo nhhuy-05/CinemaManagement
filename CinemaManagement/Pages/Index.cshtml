@@ -64,6 +64,7 @@
         </form>
         <h2>Thể Loại</h2>
         <ul>
+            <li><a asp-route-id="0">Tất cả</a></li>
             @foreach (var i in Model.genres)
             {
                 <li><a asp-page="Index" asp-route-id="@i.GenreId">@i.Description</a></li>
