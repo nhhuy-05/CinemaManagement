@@ -1,7 +1,12 @@
+using CinemaManagement.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<CenimaDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CinemaDB")));
 
 var app = builder.Build();
 

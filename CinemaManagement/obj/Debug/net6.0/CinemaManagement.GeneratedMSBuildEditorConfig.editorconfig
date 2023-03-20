@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Old\FPTCourse\7_Spring_2023\PRN221\Project\CinemaManagement\CinemaManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Admin/Desktop/Old/FPTCourse/7_Spring_2023/PRN221/Project/CinemaManagement/CinemaManagement/Pages/Cinema/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2luZW1hXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Old/FPTCourse/7_Spring_2023/PRN221/Project/CinemaManagement/CinemaManagement/Pages/Cinema/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2luZW1hXFNpZ25Jbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Old/FPTCourse/7_Spring_2023/PRN221/Project/CinemaManagement/CinemaManagement/Pages/Cinema/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2luZW1hXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Old/FPTCourse/7_Spring_2023/PRN221/Project/CinemaManagement/CinemaManagement/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
