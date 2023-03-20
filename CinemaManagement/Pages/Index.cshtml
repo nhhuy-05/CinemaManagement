@@ -54,6 +54,10 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    .pagination{
+        margin:20px;
+        text-align:center;
+    }
 </style>
 
 <div class="flex-container">
@@ -76,9 +80,9 @@
         @foreach (var i in Model.movies)
         {
             <div class="card grid-item">
-                <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <img src="~/picture/@i.Image" alt="Avatar" style="width:100%" height="200px">
                 <div class="container">
-                        <h4><a asp-page="Detail"asp-route-id="@i.MovieId">@i.Title</a></h4>
+                        <h4><a asp-page="Detail" asp-route-id="@i.MovieId">@i.Title</a></h4>
                     <p>Năm:@i.Year</p>
                     <p>Loại:@i.Genre.Description</p>                    
                         @if (@Model.AvgRate(Model.GetRateByMovieId(i.MovieId))==0){
@@ -90,6 +94,15 @@
                 <a class="btn btn-primary" asp-page="Detail" asp-route-id="@i.MovieId">Đánh giá</a>
             </div>
         }
+            
         </div>
+        <ul class="pagination">
+            @for (var i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a asp-page="Index" asp-route-currentpage="@i" class="page-link">@i</a>
+                </li>
+            }
+        </ul>
     </div>
 </div>

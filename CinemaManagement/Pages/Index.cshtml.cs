@@ -14,6 +14,15 @@ namespace CinemaManagement.Pages
         {
             _context=context;
         }
+        [BindProperty(SupportsGet = true)]
+        public int CurrentPage { get; set; } = 1;
+        public int Count() { 
+            return _context.Movies.Count();
+        }
+        public int PageSize { get; set; } = 4;
+
+        public int TotalPages => Count()/PageSize;
+
         public String Search { get; set; }
         public List<Movie> movies { get; set; } 
         public List<Genre> genres { get; set; }
@@ -34,13 +43,17 @@ namespace CinemaManagement.Pages
         {
             if(id == 0)
             {
-                movies = _context.Movies.Include("Genre").ToList();
-                genres = _context.Genres.ToList();                
+                movies = _context.Movies.Include("Genre").
+                    Skip((CurrentPage - 1) * PageSize).Take(PageSize).ToList();
+                genres = _context.Genres.ToList();
+                
             }
             else
             {
-                movies = _context.Movies.Include("Genre").Where(x => x.GenreId == id).ToList();
+                movies = _context.Movies.Include("Genre").Where(x => x.GenreId == id).
+                    Skip((CurrentPage - 1) * PageSize).Take(PageSize).ToList();
                 genres = _context.Genres.ToList();
+                
             }
         }
 
@@ -49,13 +62,17 @@ namespace CinemaManagement.Pages
             Search = Request.Form["Search"];
             if (id == 0)
             {
-                movies = _context.Movies.Include("Genre").Where(x => x.Title.Contains(Search)).ToList();
+                movies = _context.Movies.Include("Genre").Where(x => x.Title.Contains(Search)).
+                    Skip((CurrentPage - 1) * PageSize).Take(PageSize).ToList();
                 genres = _context.Genres.ToList();
+                
             }
             else
             {
-                movies = _context.Movies.Include("Genre").Where(x => x.GenreId == id&&x.Title.Contains(Search)).ToList();
+                movies = _context.Movies.Include("Genre").Where(x => x.GenreId == id&&x.Title.
+                    Contains(Search)).Skip((CurrentPage - 1) * PageSize).Take(PageSize).ToList();
                 genres = _context.Genres.ToList();
+               
             }            
         }
     }
