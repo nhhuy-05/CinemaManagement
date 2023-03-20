@@ -26,7 +26,6 @@ namespace CinemaManagement.Pages
             }
             return avgRate;
         }
-
         public List<Rate> GetRateByMovieId(int id)
         {
             return _context.Rates.Where(r => r.MovieId == id).ToList();
