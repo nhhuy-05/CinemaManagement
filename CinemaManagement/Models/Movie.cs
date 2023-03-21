@@ -9,7 +9,7 @@ namespace CinemaManagement.Models
         {
             Rates = new HashSet<Rate>();
         }
-
+        
         public int MovieId { get; set; }
         public string Title { get; set; }
         public int? Year { get; set; }
@@ -18,6 +18,8 @@ namespace CinemaManagement.Models
         public int? GenreId { get; set; }
 
         public virtual Genre Genre { get; set; }
-        public virtual ICollection<Rate> Rates { get; set; }
+        public virtual ICollection<Rate> Rates { get; set; }    
+        
+
     }
 }
