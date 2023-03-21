@@ -1,4 +1,35 @@
-﻿@page
+﻿@page "{id}"
 @model CinemaManagement.Pages.Cinema.DetailModel
 @{
 }
+<div class="row">
+    <div class="col-sm-3">
+        <img width="100%" height="300" src="~/picture/@Model.movie.Image" />
+    </div>
+    <div class="col-sm-9">
+        <div>
+            <h3>@Model.movie.Title</h3>
+            <label style="font-weight: bold">Thể loại:</label> @Model.movie.Genre.Description<br/>
+            <label style="font-weight: bold">Điểm đánh giá: </label>
+            @if (@Model.AvgRate(Model.GetRateByMovieId(Model.movie.MovieId)) == 0)
+            {
+                <label>Chưa có đánh giá</label>
+            }
+            else
+            {
+                @Model.AvgRate(Model.GetRateByMovieId(Model.movie.MovieId))
+            }
+            <br />
+            <label style="font-weight: bold">Mô tả:</label> @Model.movie.Description<br />
+            <button class="btn btn-primary">Đánh giá</button>
+        </div>
+       <hr/>
+        <div>
+            <h3>Bình luận:</h3>
+            @foreach(var item in Model.rates){
+                <label style="font-weight: bold">@item.Person.Fullname :</label> @item.Comment <br/>
+            }
+        </div>
+    </div>
+    
+</div>

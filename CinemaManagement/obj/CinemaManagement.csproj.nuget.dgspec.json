@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\111\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {}
+    "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {}
   },
   "projects": {
-    "D:\\111\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {
+    "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\111\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
+        "projectUniqueName": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
         "projectName": "CinemaManagement",
-        "projectPath": "D:\\111\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
-        "packagesPath": "C:\\Users\\Nhat Anh PC\\.nuget\\packages\\",
-        "outputPath": "D:\\111\\CinemaManagement\\CinemaManagement\\obj\\",
+        "projectPath": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
+        "packagesPath": "C:\\Users\\anhtu\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nhat Anh PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anhtu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
