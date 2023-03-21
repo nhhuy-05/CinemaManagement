@@ -21,7 +21,20 @@
             }
             <br />
             <label style="font-weight: bold">Mô tả:</label> @Model.movie.Description<br />
-            <button class="btn btn-primary">Đánh giá</button>
+        </div>
+        <div>
+            <hr/>
+            <form method="post">
+                  <h4>Chi tiết đánh giá</h4>
+            <label>Điểm đánh giá: </label>
+            <input asp-for="Rate.NumericRating" class="form-control" />
+            <span asp-validation-for="Rate.NumericRating" class="text-danger"></span>
+            <label>Bình luận:</label><br/>
+                <input asp-for="Rate.Comment" class="form-control" />
+                <span asp-validation-for="Rate.Comment" class="text-danger"></span>
+            <button type="submit" class="btn btn-primary">Đánh giá</button>
+            </form>
+          
         </div>
        <hr/>
         <div>

@@ -15,8 +15,28 @@ namespace CinemaManagement.Pages.Cinema
         [BindProperty(SupportsGet = true)]
         public Movie movie { get; set; }
         public List<Rate> rates { get; set; }
+        public Rate Rate { get; set; }
         public void OnGet(int id)
         {
+            movie = _db.Movies.Include("Genre").Where(m => m.MovieId == id).SingleOrDefault();
+            rates = _db.Rates.Include("Person").Where(r => r.MovieId == id).ToList();
+        }
+
+        public void OnPost(int id)
+        {
+            string raw_number = Request.Form["Rate.NumericRating"];
+            string comment = Request.Form["Rate.Comment"];
+            Rate newRate = new Rate()
+            {
+                PersonId = 1,
+                MovieId = id,
+                NumericRating = double.Parse(raw_number),
+                Comment = comment,
+                Time = DateTime.Now,
+
+            };
+            _db.Rates.Add(newRate);
+            _db.SaveChanges();
             movie = _db.Movies.Include("Genre").Where(m => m.MovieId == id).SingleOrDefault();
             rates = _db.Rates.Include("Person").Where(r => r.MovieId == id).ToList();
         }
