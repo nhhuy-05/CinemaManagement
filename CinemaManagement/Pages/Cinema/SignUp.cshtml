@@ -1,4 +1,42 @@
 ﻿@page
 @model CinemaManagement.Pages.Cinema.SignUpModel
 @{
+    ViewData["Title"] = "SignIn";
+}
+
+<div class="card w-50" style="margin:auto">
+    <div class="card-header bg-info text-white" style="font-weight:bold;">
+        <i class="bi bi-person-circle"></i> Đăng ký
+    </div>
+    <form method="post" asp-action="OnPost">
+        <div class="card-body">
+            <div class="mb-3">
+                <label class="form-label"> Email </label>
+                <input asp-for="InputRegister.Email" type="text" class="form-control" />
+                <span asp-validation-for="InputRegister.Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label"> Password </label>
+                <input asp-for="InputRegister.Password" type="password" class="form-control" />
+                <span asp-validation-for="InputRegister.Password" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label"> Name </label>
+                <input asp-for="InputRegister.Fullname" type="text" class="form-control" />
+                <span asp-validation-for="InputRegister.Fullname" class="text-danger"></span>
+            </div>
+
+
+            <div class="card-footer text-muted">
+                <button type="submit" class="btn btn-primary" asp-page="SignUp"><i class="bi bi-check-circle" style="color:white;"></i> Đăng ký  </button>
+                <span class="text-danger">@Model.Msg</span>
+            </div>
+
+    </form>
+    <div class="card-footer text-muted">
+        <a asp-page="SignIn">Đã có tài khoản? Đăng nhập ngay!</a>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
 }
