@@ -1,0 +1,24 @@
+﻿<div>
+    @if (Context.Session.GetString("Fullname") != null)
+    {
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-dark">Xin chào @Context.Session.GetString("Fullname")</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-page="/Cinema/SignIn" asp-page-handler="LogOut">Đăng xuất</a>
+            </li>
+        </ul>
+    }
+    else
+    {
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/Cinema/SignIn">Đăng nhập</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-page="/Cinema/SignUp">Đăng ký</a>
+            </li>
+        </ul>
+    }
+</div>
