@@ -2,7 +2,7 @@
 
 namespace CinemaManagement.Pages
 {
-    public class IndexModel : PageModel
+    public class MainModel : PageModel
     {
         public void OnGet()
         {

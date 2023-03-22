@@ -9,7 +9,7 @@
     <div class="col-sm-9">
         <div>
             <h3>@Model.movie.Title</h3>
-            <label style="font-weight: bold">Thể loại:</label> @Model.movie.Genre.Description<br/>
+            <label style="font-weight: bold">Thể loại:</label> @Model.movie.Genre.Description<br />
             <label style="font-weight: bold">Điểm đánh giá: </label>
             @if (@Model.AvgRate(Model.GetRateByMovieId(Model.movie.MovieId)) == 0)
             {
@@ -23,30 +23,45 @@
             <label style="font-weight: bold">Mô tả:</label> @Model.movie.Description<br />
         </div>
         <div>
-            <hr/>
-            <form method="post">
-                  <h4>Chi tiết đánh giá</h4>
-            <label>Điểm đánh giá: </label>
-            <input asp-for="Rate.NumericRating" class="form-control" />
-            <span asp-validation-for="Rate.NumericRating" class="text-danger"></span>
-            <label>Bình luận:</label><br/>
-                <textarea asp-for="Rate.Comment" class="form-control" style="height: 100px"></textarea>
-                <span asp-validation-for="Rate.Comment" class="text-danger"></span>
-                @if(Model.Rate != null){
-                    <a class="btn btn-primary" asp-page="">Đánh giá</a>
-                } else{
+            <hr />
+
+            @if (HttpContext.Session.GetString("user") != null)
+           {
+                <form method="post">
+                    <h4>Chi tiết đánh giá </h4>  @{
+                        if (ViewData["msg"] != null)
+                        {
+                            <label style="color: red">@ViewData["msg"]</label><br/>
+                        }
+                    }
+                    <label>Điểm đánh giá: </label>
+                    <span asp-validation-for="@Model.userRate.NumericRating" class="text-danger"></span>
+                    <input asp-for="@Model.userRate.NumericRating" class="form-control" /><br/>
+                    <label>Bình luận:</label>
+                    <span asp-validation-for="@Model.userRate.Comment" class="text-danger"></span>
+                    <textarea asp-for="@Model.userRate.Comment" class="form-control" style="height: 100px"></textarea> <br />
                     <button type="submit" class="btn btn-primary">Đánh giá</button>
-                }
-            </form>
-          
+                    
+                </form>
+            } else
+            {
+                <a class="btn btn-primary" asp-page="SignIn">Đánh giá</a>
+            }
+            
+
         </div>
-       <hr/>
+        <hr />
         <div>
             <h3>Bình luận:</h3>
-            @foreach(var item in Model.rates){
-                <label style="font-weight: bold">@item.Person.Fullname :</label> @item.Comment <br/>
+            @foreach (var item in Model.rates)
+            {
+                <label style="font-weight: bold">@item.Person.Fullname :</label> @item.Comment <br />
             }
         </div>
     </div>
-    
+
 </div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

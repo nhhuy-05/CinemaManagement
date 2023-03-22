@@ -66,66 +66,134 @@ C:\Users\Admin\Desktop\Old\FPTCourse\7_Spring_2023\PRN221\Project\CinemaManageme
 C:\Users\Admin\Desktop\Old\FPTCourse\7_Spring_2023\PRN221\Project\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Admin\Desktop\Old\FPTCourse\7_Spring_2023\PRN221\Project\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Admin\Desktop\Old\FPTCourse\7_Spring_2023\PRN221\Project\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CopyComplete
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\appsettings.Development.json
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\appsettings.json
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.staticwebassets.runtime.json
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.exe
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.deps.json
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.runtimeconfig.json
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.pdb
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Humanizer.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\111\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.AssemblyReference.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.GeneratedMSBuildEditorConfig.editorconfig
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfoInputs.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfo.cs
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CoreCompileInputs.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.MvcApplicationPartsAssemblyInfo.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cs
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets.build.json
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets.development.json
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\bundle\CinemaManagement.styles.css
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\projectbundle\CinemaManagement.bundle.scp.css
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CopyComplete
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.dll
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\refint\CinemaManagement.dll
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.pdb
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.genruntimeconfig.cache
-D:\111\CinemaManagement\CinemaManagement\obj\Debug\net6.0\ref\CinemaManagement.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\refint\CinemaManagement.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.pdb
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.exe
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.deps.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\CinemaManagement.pdb
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets\msbuild.CinemaManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets\msbuild.build.CinemaManagement.props
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CinemaManagement.props
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CinemaManagement.props
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\bundle\CinemaManagement.styles.css
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\scopedcss\projectbundle\CinemaManagement.bundle.scp.css
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\CinemaManagement.genruntimeconfig.cache
+C:\Users\Admin\Desktop\New folder (3)\CinemaManagement\CinemaManagement\obj\Debug\net6.0\ref\CinemaManagement.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\appsettings.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.staticwebassets.runtime.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.exe
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.deps.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.runtimeconfig.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\CinemaManagement.pdb
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Humanizer.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.AssemblyReference.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfoInputs.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.AssemblyInfo.cs
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CoreCompileInputs.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.RazorAssemblyInfo.cs
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\scopedcss\bundle\CinemaManagement.styles.css
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\scopedcss\projectbundle\CinemaManagement.bundle.scp.css
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.csproj.CopyComplete
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\refint\CinemaManagement.dll
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.pdb
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\CinemaManagement.genruntimeconfig.cache
+C:\Users\anhtu\Downloads\CinemaManagement-master\CinemaManagement-master\CinemaManagement\obj\Debug\net6.0\ref\CinemaManagement.dll
