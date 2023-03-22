@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\New folder (3)\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {}
+    "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\New folder (3)\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {
+    "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder (3)\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
+        "projectUniqueName": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
         "projectName": "CinemaManagement",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\CinemaManagement\\CinemaManagement\\obj\\",
+        "projectPath": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\CinemaManagement.csproj",
+        "packagesPath": "C:\\Users\\anhtu\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN221_Tho\\CinemaManagement\\CinemaManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anhtu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

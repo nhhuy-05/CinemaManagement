@@ -2,6 +2,7 @@
 using CinemaManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Text.Json;
 
 namespace CinemaManagement.Pages.Cinema
 {
@@ -30,13 +31,13 @@ namespace CinemaManagement.Pages.Cinema
             Msg = string.Empty;
             if (ModelState.IsValid)
             {
-                var checkEmail = _context.Persons.SingleOrDefault(p => p.Email.Equals(InputLogin.Email));
+                Person checkEmail = _context.Persons.SingleOrDefault(p => p.Email.Equals(InputLogin.Email));
                 if (checkEmail != null)
                 {
                     if (checkEmail.Password.Equals(InputLogin.Password.Trim()))
                     {
-                        HttpContext.Session.SetString("Fullname", checkEmail.Fullname);
-                        HttpContext.Session.SetInt32("Role", (int)checkEmail.Type);
+                        string objPerson = JsonSerializer.Serialize<Person>(checkEmail);
+                        HttpContext.Session.SetString("user", objPerson);
                         return RedirectToPage("/Main");
                     }
                     else

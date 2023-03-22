@@ -1,9 +1,10 @@
 ﻿<div>
-    @if (Context.Session.GetString("Fullname") != null)
+    @if (Context.Session.GetString("user") != null)
     {
+        Person account = JsonSerializer.Deserialize<Person>(Context.Session.GetString("user"));
         <ul class="navbar-nav flex-grow-1">
             <li class="nav-item">
-                <a class="nav-link text-dark">Xin chào @Context.Session.GetString("Fullname")</a>
+                <a class="nav-link text-dark">Xin chào @account.Fullname</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-dark" asp-page="/Cinema/SignIn" asp-page-handler="LogOut">Đăng xuất</a>
