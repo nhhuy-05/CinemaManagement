@@ -30,9 +30,13 @@
             <input asp-for="Rate.NumericRating" class="form-control" />
             <span asp-validation-for="Rate.NumericRating" class="text-danger"></span>
             <label>Bình luận:</label><br/>
-                <input asp-for="Rate.Comment" class="form-control" />
+                <textarea asp-for="Rate.Comment" class="form-control" style="height: 100px"></textarea>
                 <span asp-validation-for="Rate.Comment" class="text-danger"></span>
-            <button type="submit" class="btn btn-primary">Đánh giá</button>
+                @if(Model.Rate != null){
+                    <a class="btn btn-primary" asp-page="">Đánh giá</a>
+                } else{
+                    <button type="submit" class="btn btn-primary">Đánh giá</button>
+                }
             </form>
           
         </div>

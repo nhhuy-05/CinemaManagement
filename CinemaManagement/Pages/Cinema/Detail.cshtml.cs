@@ -20,6 +20,7 @@ namespace CinemaManagement.Pages.Cinema
         {
             movie = _db.Movies.Include("Genre").Where(m => m.MovieId == id).SingleOrDefault();
             rates = _db.Rates.Include("Person").Where(r => r.MovieId == id).ToList();
+            Rate = rates.Where(r => r.PersonId == 1).SingleOrDefault();
         }
 
         public void OnPost(int id)
