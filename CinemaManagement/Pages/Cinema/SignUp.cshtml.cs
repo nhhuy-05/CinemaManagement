@@ -32,7 +32,18 @@ namespace CinemaManagement.Pages.Cinema
                 var checkEmail = _context.Persons.SingleOrDefault(p => p.Email.Equals(InputRegister.Email));
                 if (checkEmail == null)
                 {
-
+                    Person p = new Person
+                    {
+                        Fullname = InputRegister.Fullname,
+                        Gender = InputRegister.Gender,
+                        Email = InputRegister.Email,
+                        Password = InputRegister.Password,
+                        Type = 2,
+                        IsActive = true
+                    };
+                    _context.Add(p);
+                    _context.SaveChanges();
+                    return RedirectToPage("/Cinema/SignIn");
                 }
                 else
                 {
