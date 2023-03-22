@@ -16,16 +16,22 @@
                 <span asp-validation-for="InputRegister.Email" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <label class="form-label"> Password </label>
+                <label class="form-label"> Mật khẩu </label>
                 <input asp-for="InputRegister.Password" type="password" class="form-control" />
                 <span asp-validation-for="InputRegister.Password" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <label class="form-label"> Name </label>
+                <label class="form-label"> Họ và tên </label>
                 <input asp-for="InputRegister.Fullname" type="text" class="form-control" />
                 <span asp-validation-for="InputRegister.Fullname" class="text-danger"></span>
             </div>
-
+            <div class="mb-3">
+                <label class="form-label">Giới tính</label><br />
+                <input asp-for="InputRegister.Gender" type="radio" checked value="Nam" />
+                <label class="form-check-label">Nam</label>
+                <input asp-for="InputRegister.Gender" type="radio" value="Nữ" />
+                <label class="form-check-label">Nữ</label>
+            </div>
 
             <div class="card-footer text-muted">
                 <button type="submit" class="btn btn-primary" asp-page="SignUp"><i class="bi bi-check-circle" style="color:white;"></i> Đăng ký  </button>

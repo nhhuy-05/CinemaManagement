@@ -12,9 +12,9 @@ namespace CinemaManagement.ViewModels
         [StringLength(20, MinimumLength = 1, ErrorMessage = "Mật khẩu phải có độ dài ít từ 1 đến 20 kí tự!")]
         public string Password { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Vui lòng nhập tên!")]
         public string Fullname { get; set; }
 
-        public bool Gender { get; set; }
+        public string Gender { get; set; }
     }
 }
