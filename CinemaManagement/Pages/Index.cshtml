@@ -1,9 +1,108 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Welcome";
+    ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+
+    .flex-container > div {        
+        margin: 10px;        
+    }
+    .Category{
+        width:20%;
+    }
+
+    .Movie{
+        width: 80%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 240px 240px 240px 240px;
+        padding: 10px;
+    }
+    .grid-item {     
+        
+        padding: 20px; 
+        margin:5px;
+    }
+
+    .card {
+        width:220px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+    }
+
+    .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+
+    h4{
+        white-space: nowrap;
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .pagination{
+        margin:20px;
+        text-align:center;
+    }
+</style>
+
+<div class="flex-container">
+    <div class="Category">
+        <form method="post">
+            <input asp-for="Search" name="Search" />
+            <input type="submit" value="Tìm kiếm" />
+        </form>
+        <h2>Thể Loại</h2>
+        <ul>
+            <li><a asp-route-id="0">Tất cả</a></li>
+            @foreach (var i in Model.genres)
+            {
+                <li><a asp-page="Index" asp-route-id="@i.GenreId">@i.Description</a></li>
+            }
+        </ul>
+    </div>
+    <div class="Movie">
+        <div class="grid-container">
+        @foreach (var i in Model.movies)
+        {
+            <div class="card grid-item">
+                <img src="~/picture/@i.Image" alt="Avatar" style="width:100%" height="200px">
+                <div class="container">
+                        <h4><a asp-page="Detail" asp-route-id="@i.MovieId">@i.Title</a></h4>
+                    <p>Năm:@i.Year</p>
+                    <p>Loại:@i.Genre.Description</p>                    
+                        @if (@Model.AvgRate(Model.GetRateByMovieId(i.MovieId))==0){
+                            <p>Chưa có đánh giá</p>
+                        }else{
+                            <p>Điểm:@Model.AvgRate(Model.GetRateByMovieId(i.MovieId))</p>
+                        }
+                </div>
+                <a class="btn btn-primary" asp-page="Detail" asp-route-id="@i.MovieId">Đánh giá</a>
+            </div>
+        }
+            
+        </div>
+        <ul class="pagination">
+            @for (var i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a asp-page="Index" asp-route-currentpage="@i" class="page-link">@i</a>
+                </li>
+            }
+        </ul>
+    </div>
 </div>
