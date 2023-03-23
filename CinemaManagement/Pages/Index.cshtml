@@ -80,9 +80,10 @@
         @foreach (var i in Model.movies)
         {
             <div class="card grid-item">
-                <img src="~/picture/@i.Image" alt="Avatar" style="width:100%" height="200px">
+                    <a asp-page="Cinema/Detail" asp-route-id="@i.MovieId"><img src="~/picture/@i.Image" alt="Avatar" style="width:100%" height="200px"></a>
+                
                 <div class="container">
-                        <h4><a asp-page="Detail" asp-route-id="@i.MovieId">@i.Title</a></h4>
+                        <h4><a asp-page="Cinema/Detail" asp-route-id="@i.MovieId">@i.Title</a></h4>
                     <p>Năm:@i.Year</p>
                     <p>Loại:@i.Genre.Description</p>                    
                         @if (@Model.AvgRate(Model.GetRateByMovieId(i.MovieId))==0){
@@ -91,7 +92,7 @@
                             <p>Điểm:@Model.AvgRate(Model.GetRateByMovieId(i.MovieId))</p>
                         }
                 </div>
-                <a class="btn btn-primary" asp-page="Detail" asp-route-id="@i.MovieId">Đánh giá</a>
+                <a class="btn btn-primary" asp-page="Cinema/Detail" asp-route-id="@i.MovieId">Đánh giá</a>
             </div>
         }
             
