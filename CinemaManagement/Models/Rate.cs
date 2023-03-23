@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace CinemaManagement.Models
 {
@@ -8,9 +7,7 @@ namespace CinemaManagement.Models
     {
         public int MovieId { get; set; }
         public int PersonId { get; set; }
-        [Required(ErrorMessage = "Hãy điền comment")]
         public string Comment { get; set; }
-        [Required(ErrorMessage = "Hãy điền điểm đánh giá")]
         public double? NumericRating { get; set; }
         public DateTime? Time { get; set; }
 
